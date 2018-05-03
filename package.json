@@ -1,19 +1,29 @@
 {
-  "name": "first-app",
-  "version": "1.0.0",
-  "description": "",
+  "name": "node-js-sample",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rvenkateshvino/First-App.git"
+    "url": "https://github.com/heroku/node-js-sample"
   },
-  "author": "venky",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rvenkateshvino/First-App/issues"
-  },
-  "homepage": "https://github.com/rvenkateshvino/First-App#readme"
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Mark Pundsack",
+  "contributors": [
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+  ],
+  "license": "MIT"
 }
